@@ -1,0 +1,14 @@
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/bin/Debug/net10.0/Operadores
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/bin/Debug/net10.0/Operadores.deps.json
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/bin/Debug/net10.0/Operadores.runtimeconfig.json
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/bin/Debug/net10.0/Operadores.dll
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/bin/Debug/net10.0/Operadores.pdb
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.AssemblyInfoInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.AssemblyInfo.cs
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.csproj.CoreCompileInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.dll
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/refint/Operadores.dll
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.pdb
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/Operadores.genruntimeconfig.cache
+/Users/williambarra/Projects/edteam/csharp/project/Operadores/obj/Debug/net10.0/ref/Operadores.dll

@@ -1,0 +1,14 @@
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/bin/Debug/net10.0/TiposPrimitivos
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/bin/Debug/net10.0/TiposPrimitivos.deps.json
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/bin/Debug/net10.0/TiposPrimitivos.runtimeconfig.json
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/bin/Debug/net10.0/TiposPrimitivos.dll
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/bin/Debug/net10.0/TiposPrimitivos.pdb
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.AssemblyInfoInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.AssemblyInfo.cs
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.csproj.CoreCompileInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.dll
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/refint/TiposPrimitivos.dll
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.pdb
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/TiposPrimitivos.genruntimeconfig.cache
+/Users/williambarra/Projects/edteam/csharp/project/TiposPrimitivos/obj/Debug/net10.0/ref/TiposPrimitivos.dll

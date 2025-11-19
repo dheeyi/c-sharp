@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="DeclaracionAsignacionVariables/DeclaracionAsignacionVariables.csproj" />
+  <Project Path="EstructurasDeControl/EstructurasDeControl.csproj" />
+  <Project Path="InferenciaTiposVAR/InferenciaTiposVAR.csproj" />
+  <Project Path="MetodosArraysLists/MetodosArraysLists.csproj" />
+  <Project Path="Operadores/Operadores.csproj" />
+  <Project Path="Precedencia/Precedencia.csproj" />
+  <Project Path="TiposPrimitivos/TiposPrimitivos.csproj" />
+</Solution>
