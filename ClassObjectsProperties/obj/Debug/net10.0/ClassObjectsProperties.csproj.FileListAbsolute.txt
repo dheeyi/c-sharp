@@ -1,0 +1,15 @@
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/bin/Debug/net10.0/ClassObjectsProperties
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/bin/Debug/net10.0/ClassObjectsProperties.deps.json
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/bin/Debug/net10.0/ClassObjectsProperties.runtimeconfig.json
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/bin/Debug/net10.0/ClassObjectsProperties.dll
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/bin/Debug/net10.0/ClassObjectsProperties.pdb
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.AssemblyInfoInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.AssemblyInfo.cs
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.csproj.CoreCompileInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.sourcelink.json
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.dll
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/refint/ClassObjectsProperties.dll
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.pdb
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ClassObjectsProperties.genruntimeconfig.cache
+/Users/williambarra/Projects/edteam/csharp/project/ClassObjectsProperties/obj/Debug/net10.0/ref/ClassObjectsProperties.dll
