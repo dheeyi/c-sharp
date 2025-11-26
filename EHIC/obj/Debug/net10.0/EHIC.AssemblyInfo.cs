@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EHIC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe94b4c56f845c1dc06c42b1ddbb990701447713")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f3199a8716c80e4688d61c94ff5b78c4b95f62e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EHIC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EHIC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

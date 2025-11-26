@@ -1,0 +1,15 @@
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/bin/Debug/net10.0/AsyncAwait
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/bin/Debug/net10.0/AsyncAwait.deps.json
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/bin/Debug/net10.0/AsyncAwait.runtimeconfig.json
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/bin/Debug/net10.0/AsyncAwait.dll
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/bin/Debug/net10.0/AsyncAwait.pdb
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.AssemblyInfoInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.AssemblyInfo.cs
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.csproj.CoreCompileInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.sourcelink.json
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.dll
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/refint/AsyncAwait.dll
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.pdb
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/AsyncAwait.genruntimeconfig.cache
+/Users/williambarra/Projects/edteam/csharp/project/AsyncAwait/obj/Debug/net10.0/ref/AsyncAwait.dll
