@@ -1,0 +1,15 @@
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.AssemblyInfoInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.AssemblyInfo.cs
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.csproj.CoreCompileInputs.cache
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.sourcelink.json
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/bin/Debug/net10.0/EHIC
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/bin/Debug/net10.0/EHIC.deps.json
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/bin/Debug/net10.0/EHIC.runtimeconfig.json
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/bin/Debug/net10.0/EHIC.dll
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/bin/Debug/net10.0/EHIC.pdb
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.dll
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/refint/EHIC.dll
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.pdb
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/EHIC.genruntimeconfig.cache
+/Users/williambarra/Projects/edteam/csharp/project/EHIC/obj/Debug/net10.0/ref/EHIC.dll
