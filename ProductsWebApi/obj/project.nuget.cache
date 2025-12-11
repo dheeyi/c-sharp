@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+2GYOrBllOM=",
+  "dgSpecHash": "snpPHow1aVY=",
   "success": true,
   "projectFilePath": "/Users/williambarra/Projects/edteam/csharp/project/ProductsWebApi/ProductsWebApi.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,7 @@
     "/Users/williambarra/.nuget/packages/swashbuckle.aspnetcore/10.0.1/swashbuckle.aspnetcore.10.0.1.nupkg.sha512",
     "/Users/williambarra/.nuget/packages/swashbuckle.aspnetcore.swagger/10.0.1/swashbuckle.aspnetcore.swagger.10.0.1.nupkg.sha512",
     "/Users/williambarra/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.0.1/swashbuckle.aspnetcore.swaggergen.10.0.1.nupkg.sha512",
-    "/Users/williambarra/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.0.1/swashbuckle.aspnetcore.swaggerui.10.0.1.nupkg.sha512",
-    "/Users/williambarra/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512"
+    "/Users/williambarra/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.0.1/swashbuckle.aspnetcore.swaggerui.10.0.1.nupkg.sha512"
   ],
   "logs": []
 }

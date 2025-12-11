@@ -1,0 +1,98 @@
+@page "/products"
+@rendermode InteractiveServer
+@inject ProductService ProductService
+@inject NavigationManager NavigationManager
+@inject IDialogService DialogService
+@inject ISnackbar Snackbar
+
+<PageTitle>Productos</PageTitle>
+
+<div class="d-flex justify-space-between align-center mb-4">
+    <MudText Typo="Typo.h3">Productos</MudText>
+    <MudButton Variant="Variant.Filled"
+               Color="Color.Primary"
+               StartIcon="@Icons.Material.Filled.Add"
+               OnClick="@(() => NavigationManager.NavigateTo("/products/create"))">
+        Crear Producto
+    </MudButton>
+</div>
+
+@if (_loading)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" />
+}
+else if (_products.Count == 0)
+{
+    <MudAlert Severity="Severity.Info">No hay productos</MudAlert>
+}
+else
+{
+    <MudGrid>
+        @foreach (var product in _products)
+        {
+            <MudItem xs="12" sm="6" md="4">
+                <MudCard Elevation="2" Class="pa-4 d-flex flex-column" Style="height: 100%;">
+                    <MudCardContent Class="flex-grow-1">
+                        <MudText Typo="Typo.h5">@product.Name</MudText>
+                        <MudText Typo="Typo.h4" Color="Color.Primary" Class="my-2">
+                            @product.FormattedPrice
+                        </MudText>
+                        <MudChip T="string" Color="@product.CategoryColor" Size="Size.Small">
+                            @product.PriceCategory
+                        </MudChip>
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton Variant="Variant.Text"
+                                   Color="Color.Primary"
+                                   OnClick="@(() => NavigationManager.NavigateTo($"/products/edit/{product.Id}"))">
+                            Editar
+                        </MudButton>
+                        <MudSpacer />
+                        <MudIconButton Icon="@Icons.Material.Filled.Delete"
+                                       Color="Color.Error"
+                                       OnClick="@(() => DeleteProduct(product))" />
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+        }
+    </MudGrid>
+}
+
+@code {
+    private List<ProductDto> _products = [];
+    private bool _loading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _products = await ProductService.GetAllAsync();
+        _loading = false;
+    }
+
+    private async Task DeleteProduct(ProductDto product)
+    {
+        var parameters = new DialogParameters<ConfirmDialog>
+        {
+            { x => x.ContentText, $"¿Estás seguro de eliminar '{product.Name}'?" },
+            { x => x.ButtonText, "Eliminar" },
+            { x => x.Color, Color.Error }
+        };
+
+        var dialog = await DialogService.ShowAsync<ConfirmDialog>("Confirmar eliminación", parameters);
+        var result = await dialog.Result;
+
+        if (result is not null && !result.Canceled)
+        {
+            var success = await ProductService.DeleteAsync(product.Id);
+
+            if (success)
+            {
+                _products.Remove(product);
+                Snackbar.Add("Eliminado", Severity.Success);
+            }
+            else
+            {
+                Snackbar.Add("Error al eliminar", Severity.Error);
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@page "/products/create"
+@rendermode InteractiveServer
+@inject ProductService ProductService
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
+
+<PageTitle>Crear Producto</PageTitle>
+
+<MudText Typo="Typo.h3" Class="mb-4">Crear Producto</MudText>
+
+<MudCard Elevation="3" Class="pa-4" Style="max-width: 600px;">
+    <MudForm @ref="_form" @bind-IsValid="_isValid">
+        <MudCardContent>
+            <MudTextField @bind-Value="dto.Name"
+                          Label="Nombre del Producto"
+                          Variant="Variant.Outlined"
+                          Required="true"
+                          Placeholder="Ej: Laptop Dell XPS 13"
+                          Class="mb-4" />
+
+            <MudNumericField @bind-Value="dto.Price"
+                             Label="Precio"
+                             Variant="Variant.Outlined"
+                             Required="true"
+                             Min="0.01m"
+                             Step="0.01m"
+                             Format="N2"
+                             Adornment="Adornment.Start"
+                             AdornmentText="$" />
+        </MudCardContent>
+
+        <MudCardActions Class="d-flex justify-end gap-2">
+            <MudButton Variant="Variant.Text" OnClick="Cancel">
+                Cancelar
+            </MudButton>
+            <MudButton Variant="Variant.Filled"
+                       Color="Color.Primary"
+                       OnClick="Save"
+                       Disabled="@(!_isValid || _saving)">
+                @if (_saving)
+                {
+                    <MudProgressCircular Size="Size.Small" Indeterminate="true" Class="mr-2" />
+                }
+                Guardar
+            </MudButton>
+        </MudCardActions>
+    </MudForm>
+</MudCard>
+
+@code {
+    private MudForm _form = null!;
+    private bool _isValid;
+    private bool _saving;
+    private CreateProductDto dto = new();
+
+    private async Task Save()
+    {
+        _saving = true;
+
+        var result = await ProductService.CreateAsync(dto);
+
+        if (result is not null)
+        {
+            Snackbar.Add("Producto creado", Severity.Success);
+            NavigationManager.NavigateTo("/products");
+        }
+        else
+        {
+            Snackbar.Add("Error al crear", Severity.Error);
+        }
+
+        _saving = false;
+    }
+
+    private void Cancel()
+    {
+        NavigationManager.NavigateTo("/products");
+    }
+}

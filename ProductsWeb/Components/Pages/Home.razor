@@ -1,0 +1,51 @@
+@page "/"
+@rendermode InteractiveServer
+@inject ProductService ProductService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Home</PageTitle>
+
+<MudText Typo="Typo.h3" Class="mb-4">Bienvenido a Product Manager</MudText>
+
+<MudAlert Severity="Severity.Info" Class="mb-4">
+    Aplicación Blazor Server con .NET 10 que consume API REST
+</MudAlert>
+
+<MudCard Elevation="2" Class="pa-4" Style="max-width: 400px;">
+    <MudCardContent>
+        @if (_loading)
+        {
+            <MudProgressCircular Indeterminate="true" Size="Size.Small" />
+        }
+        else
+        {
+            <div class="d-flex align-center gap-3">
+                <MudIcon Icon="@Icons.Material.Filled.Inventory" Size="Size.Large" Color="Color.Primary" />
+                <div>
+                    <MudText Typo="Typo.body2" Color="Color.Secondary">Total de productos</MudText>
+                    <MudText Typo="Typo.h4">@_productCount</MudText>
+                </div>
+            </div>
+        }
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Filled"
+                   Color="Color.Primary"
+                   EndIcon="@Icons.Material.Filled.ArrowForward"
+                   OnClick="@(() => NavigationManager.NavigateTo("/products"))">
+            Ver Productos
+        </MudButton>
+    </MudCardActions>
+</MudCard>
+
+@code {
+    private int _productCount;
+    private bool _loading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var products = await ProductService.GetAllAsync();
+        _productCount = products.Count;
+        _loading = false;
+    }
+}

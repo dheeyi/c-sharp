@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "m151AbPJ5fI=",
+  "success": true,
+  "projectFilePath": "/Users/williambarra/Projects/edteam/csharp/project/ProductsWeb/ProductsWeb.csproj",
+  "expectedPackageFiles": [
+    "/Users/williambarra/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.0/microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
+    "/Users/williambarra/.nuget/packages/mudblazor/8.15.0/mudblazor.8.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}
